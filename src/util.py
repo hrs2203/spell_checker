@@ -1,9 +1,13 @@
+import os
+
 class Word:
     """Word Class"""
     
     word = ""
     isCorrect = False
     correctWord = []
+    BASE_DIR = os.getcwd()
+    RESULT_DATA_PATH = os.path.join(BASE_DIR, "data", "search_data")
 
     def __init__(self, word: str):
         self.word = word
@@ -34,10 +38,24 @@ class Word:
             bool: (is_correct_word) ? true : false;
         """
         flag = False
+        # ======= check  =======
+        startChar = word[0].lower()
+        fileName = os.path.join(self.RESULT_DATA_PATH, f"{startChar}.txt")
 
-        ## ======= check  =======
+        try:
+            fileObj = open(fileName, 'r')
+            
+            for line in fileObj:
+                flag = (line[:-1]==word)
+                if flag:
+                    break
 
-        ## ======================
+            fileObj.close() 
+        except:
+            flag = False
+        
+
+        # ======================
 
         return flag
 
