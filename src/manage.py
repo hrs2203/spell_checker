@@ -1,8 +1,8 @@
-import sys, spell
+import sys, spell, train
 
 option = {
     "run": spell.takeInput,
-    "action2": "action2",
+    "train": train.train_data,
     "action3": "action3",
     "action4": "action4",
     "action5": "action5",
@@ -11,8 +11,11 @@ option = {
 if __name__ == "__main__":
     command = sys.argv[1]
     print("===========================")
-    if command in option.keys():        
-        option[command]()
+    if command in option.keys():
+        try:
+            option[command]()
+        except:
+            print(f"some error while executing command {command}")       
     else:
         print("Invalid Command\nList of possible option")
         for opt in option.keys():
