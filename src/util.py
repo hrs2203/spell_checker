@@ -33,7 +33,7 @@ class Word:
         Returns:
             bool: (is_correct_word) ? true : false;
         """
-        flag = True
+        flag = False
 
         ## ======= check  =======
 
