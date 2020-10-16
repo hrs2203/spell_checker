@@ -78,11 +78,19 @@ def readTrainingFile(filePath: str, startChar: str) -> list:
         list: list of unique words starting with word
     """
 
+    stopList = [
+        ".",",","'",":",")","(","}","{","[","]"
+    ]
+
     response = list()
 
     fileObj = open(filePath, "r")
-    fileWord = fileObj.read().split()
-    fileWord = [word.lower() for word in fileWord]
+    fileString = fileObj.read()
+    for char in stopList:
+        fileString = fileString.replace(char," ")
+
+    fileWord = fileString.split()
+    fileWord = [word.lower() for word in fileWord ]
 
     response = [word for word in fileWord if word[0] == startChar]
 

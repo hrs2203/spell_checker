@@ -11,7 +11,7 @@ jan-lennard
 jasprit
 jaydev
 jean
-jean-bart,
+jean-bart
 jehan
 jerome
 jersey
@@ -25,7 +25,6 @@ jofra
 johan
 johanna
 john
-john.with
 johnson
 john’s
 join
@@ -37,10 +36,9 @@ joked
 jokes
 jon
 jong
-jong,
 jos
 jose
-joseph,
+joseph
 joshua
 journey
 joy
@@ -52,12 +50,10 @@ judging
 julen
 julian
 july
-july,”
-july.
 jumped
 jumper
 june
-juninho.
+juninho
 junior
 junior-level
 jury
