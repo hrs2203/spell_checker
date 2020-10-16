@@ -96,12 +96,33 @@ def writeWordToFile(filePath: str, word: str):
         word (str): word to write
     """
     try:
-        fileObj = open(filePath, "a")
-        
-        fileObj.write(f"{word}\n")
-
+        fileObj = open(filePath, "r")
+        lines = fileObj.read().split("\n")[:-1]
         fileObj.close()
-    except:
+
+        wordCount = len(lines)
+        
+        if (wordCount==0):
+            lines.append(word)
+        else:
+            indx = 0
+        
+            while ( indx<wordCount and lines[indx] < word ):
+                indx+=1
+            if (indx < wordCount and lines[indx] > word ):
+                lines.insert(indx, word)
+            if (indx == wordCount):
+                lines.append(word)
+
+        fileContent = ""
+        for word in lines:
+            fileContent += f"{word}\n"
+        fileObj = open(filePath, "w")
+        fileObj.write(fileContent)
+        fileObj.close()
+        
+    except ex:
+        print(ex)
         pass
 
     
