@@ -47,14 +47,21 @@ def train_data():
     print("=============== Deleted Finish ====================")
 
     print("============== training data set ==================")
+
     tempFileList = os.listdir(TRAINING_DATA_PATH)
     fileList = [os.path.join(TRAINING_DATA_PATH, fileName) for fileName in tempFileList]
 
     for letter in charSet:
-        fileName = os.path.join( RESULT_DATA_PATH, f"{letter}.txt" )
-        if ( not os.path.exists( fileName ) ):
-            open(fileName,"w").close()
+        fileName = os.path.join(RESULT_DATA_PATH, f"{letter}.txt")
+
+        if not os.path.exists(fileName):
+            open(fileName, "w").close()
         
+        for trainFile in fileList:
+            textList = readTrainingFile(trainFile, letter)
+            for word in textList:
+                writeWordToFile(fileName, word)
+        print(f"{letter} done.")
 
     print("=============== training finished ==================")
 
@@ -81,3 +88,20 @@ def readTrainingFile(filePath: str, startChar: str) -> list:
 
     return list(response)
 
+def writeWordToFile(filePath: str, word: str):
+    """Writes word to file filePath
+
+    Args:
+        filePath (str): filePath
+        word (str): word to write
+    """
+    try:
+        fileObj = open(filePath, "a")
+        
+        fileObj.write(f"{word}\n")
+
+        fileObj.close()
+    except:
+        pass
+
+    
