@@ -3,7 +3,7 @@ import sys, spell, train
 option = {
     "run": spell.takeInput,
     "train": train.train_data,
-    "action3": "action3",
+    "addWord": train.addNewWord,
     "action4": "action4",
     "action5": "action5",
 }

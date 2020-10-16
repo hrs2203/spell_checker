@@ -125,4 +125,20 @@ def writeWordToFile(filePath: str, word: str):
         print(ex)
         pass
 
+def addNewWord():
+    BASE_DIR = os.getcwd()
+    TRAINING_DATA_PATH = os.path.join(BASE_DIR, "data", "train_data_set")
+    RESULT_DATA_PATH = os.path.join(BASE_DIR, "data", "search_data")
+
+    words = str(input("Enter word seprated by space (eg. some,people,are)\n-> ")).split(" ")
+    words = [word for word in words if ( len(word)>0 and word[0] in charSet ) ]
+
+    for word in words:
+        try:
+            fileName = os.path.join(RESULT_DATA_PATH, f"{word[0]}.txt")
+            writeWordToFile(fileName, word)
+            print(f"{word} added to {fileName}")
+        except expression as identifier:
+            print(f"wrror while adding {word} to {fileName}")
+        
     
