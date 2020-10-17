@@ -22,10 +22,12 @@ def printUserEntry(wordList: list):
     table.header(["Word", "isCorrect"])
     words = []
     isCorrect = []
+    suggestList = []
 
     for obj in wordList:
         words.append(obj.word)
         isCorrect.append(str(obj.isCorrect))
+        # suggestList.append("some")
 
     for row in zip(words, isCorrect):
         table.add_row(row)

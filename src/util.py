@@ -1,8 +1,10 @@
 import os
+import suggest
+
 
 class Word:
     """Word Class"""
-    
+
     word = ""
     isCorrect = False
     correctWord = []
@@ -11,23 +13,25 @@ class Word:
 
     def __init__(self, word: str):
         self.word = word
-        self.isCorrect = self.isSpelledCorrect(self.word)  
-        self.correctWord = [self.word]
-        
+        self.isCorrect = self.isSpelledCorrect(self.word)
+        self.correctWord = [
+            item for item in suggest.edits1(self.word) if self.isCorrect
+        ]
+
     def setCorrectWord(self):
         if not self.isCorrect:
             self.correctWord = self.suggestionList(self.word)
         else:
             self.correctWord = [self.word]
-    
+
     def __str__(self):
         prt = ""
         prt = f"{self.word} ->"
         for item in self.correctWord:
             prt = f"{prt} {item},"
-        
+
         return prt
-    
+
     def isSpelledCorrect(self, word: str) -> bool:
         """Checks wether it is a spelling mistake or not
 
@@ -43,17 +47,16 @@ class Word:
         fileName = os.path.join(self.RESULT_DATA_PATH, f"{startChar}.txt")
 
         try:
-            fileObj = open(fileName, 'r')
-            
+            fileObj = open(fileName, "r")
+
             for line in fileObj:
-                flag = (line[:-1]==word)
+                flag = line[:-1] == word
                 if flag:
                     break
 
-            fileObj.close() 
+            fileObj.close()
         except:
             flag = False
-        
 
         # ======================
 
@@ -70,7 +73,7 @@ class Word:
         """
 
         correctSuggestionList = list()
-        
+
         ## ======= suggestions  =======
 
         ## ======================
