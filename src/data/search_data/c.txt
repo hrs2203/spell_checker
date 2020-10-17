@@ -52,6 +52,7 @@ case
 cases
 cash-rich
 castled
+castles
 catch
 catches
 catherine
@@ -64,6 +65,7 @@ celebrates
 celebrating
 celebrations
 cent
+centaurs
 center
 central
 centre
@@ -83,6 +85,7 @@ challengers
 challenges
 challengesthe
 challenging
+chamber
 champ!
 champion
 champions
@@ -101,6 +104,9 @@ channels
 chanting
 chanu
 chaperones
+chapter
+character
+characters
 charge
 chargers
 charisma
@@ -115,6 +121,7 @@ chat
 checked
 checkmating
 cheer
+cheerful
 chelsea
 chemicals
 chennai
@@ -122,7 +129,9 @@ chess
 chessboard
 chest
 cheteshwar
+chicago
 chief
+child
 children
 chin
 china
@@ -134,6 +143,8 @@ chose
 chris
 christian
 christopher
+chronicle
+chronicles
 churiwala
 cilic
 cincinnati
@@ -151,6 +162,7 @@ clash
 clashed
 class
 classic
+classical
 clear
 clearance
 cleared
@@ -177,6 +189,7 @@ clubs’
 club’s
 co-founders
 co-owner
+co-written
 coach
 coaches
 coaches’
@@ -189,6 +202,7 @@ collect
 collected
 collection
 collective
+collectively
 cologne
 colombo
 colour
@@ -211,7 +225,9 @@ commitment
 commitments
 committed
 committee
+commonly
 commonwealth
+community
 companions
 company
 compared
@@ -256,17 +272,22 @@ conducted
 conducting
 conference
 conferred
+confide
 confident
 confidently
+confining
 confirm
 confirmation
 confirmed
+confrontation
 congratulated
 congratulations
 connect
+connected
 connection
 connotation
 consecutive
+consecutively
 consequences
 consider
 consideration
@@ -274,6 +295,7 @@ considered
 considering
 consistency
 consistentthe
+conspicuously
 constantly
 construction
 consult
@@ -283,6 +305,7 @@ consulting
 contact
 contacts
 contain
+contains
 conte
 contenders
 content
@@ -314,13 +337,16 @@ converted
 convincing
 convincingly
 cool
+copies
 corentin
 coric
 corner
+cornerstones
 cornet
 coronavirus
 coronavirus-checked
 correspondent
+corruption
 cost
 costly
 could
@@ -336,6 +362,7 @@ couple
 course
 court
 courts
+cousin
 coventry
 cover
 covered
@@ -351,6 +378,7 @@ create
 created
 creating
 creation
+creatures
 credible
 credit
 crept
@@ -378,16 +406,20 @@ crushing
 cruyff
 csa
 csk
+culprit
 cultural
 culture
 cup
 cup-winning
 cup/europa
+cupboard
 cups
 curator
 curran
 current
 currently
+curse
+cursed
 curtailed
 curtains
 cycle

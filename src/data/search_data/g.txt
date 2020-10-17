@@ -1,6 +1,8 @@
 g
+gain
 gained
 gaining
+gains
 galwan
 gamble
 gambling
@@ -24,7 +26,9 @@ gauff
 gave
 gc
 general
+generally
 generated
+genres
 georgia
 germain
 german
@@ -35,6 +39,9 @@ gets
 getting
 giant
 giants
+gifted
+gilderoy
+ginny
 girls
 girls’
 giron
@@ -84,11 +91,14 @@ graduate
 graeme
 grand
 grandstand
+granger
 grant
 granted
 grassroots
 gratitude
+gravely
 great
+greater
 greatest
 greats
 greedy
@@ -100,6 +110,7 @@ grigor
 grip
 grit
 ground
+grounds
 groundstaff
 groundstroke
 groundwork

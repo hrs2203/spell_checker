@@ -86,6 +86,9 @@ def readTrainingFile(filePath: str, startChar: str) -> list:
 
     fileObj = open(filePath, "r")
     fileString = fileObj.read()
+
+    # todo: need some work in pre processing
+    # train after it's done
     for char in stopList:
         fileString = fileString.replace(char," ")
 

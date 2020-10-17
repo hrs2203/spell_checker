@@ -1,5 +1,6 @@
 f1
 fa
+facade
 face
 face-to-face
 faced
@@ -33,6 +34,7 @@ fast
 fast-bowler
 fast-track
 faster
+fastest-selling
 father
 fatigue
 favour
@@ -49,6 +51,7 @@ fed
 federation
 federations
 federation’s
+feed
 feel
 feeling
 feels
@@ -62,6 +65,7 @@ fervour
 few
 fewer
 fia
+fictional
 fide
 field
 fielded
@@ -81,6 +85,7 @@ filing
 filip
 filling
 film
+films
 final
 final-round
 finale
@@ -130,6 +135,7 @@ fixes
 fixtures
 flank
 flares
+flashbacks
 flat
 flew
 flick
@@ -144,14 +150,17 @@ floodlit
 floored
 flushing
 fly
+flying
 focus
 focused
 foiled
 foiledafter
+folklore
 follow
 follow-up
 followed
 following
+follows
 fooled
 foot
 footage
@@ -168,6 +177,7 @@ forcing
 forecast
 forefront
 forehand
+forehead
 foreign
 forget
 forgettable
@@ -202,6 +212,8 @@ fourth
 fourth-tier
 fracas
 fractious
+fragmented
+framed
 france
 frances
 france’s
@@ -209,15 +221,19 @@ franchise
 franchise-based
 franchises
 franchise’s
+fraud
 fray
 free
 french
 frenchman
 frequent
+frequently
 fresh
 friday
 friday’s
+friend
 friends
+friendships
 fritz
 from
 front
@@ -231,6 +247,7 @@ fulfillment
 full
 full-time
 fully
+fun-loving
 functional
 funding
 furnish

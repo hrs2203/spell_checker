@@ -10,6 +10,8 @@ land
 landed
 landing
 landmark
+language
+languages
 lanka
 lankan
 lara
@@ -18,6 +20,7 @@ larger
 lasith
 last
 lasted
+lasts
 late
 later
 latest
@@ -42,6 +45,10 @@ leagues
 league’s
 leander
 leandro
+leaps
+learn
+learning
+learns
 learnt
 least
 leave
@@ -72,6 +79,7 @@ levels
 leverkusen
 lewandowski
 lewandowski’s
+lies
 life
 lifted
 lifting
@@ -80,6 +88,7 @@ light?
 lighter
 lighting
 lightly
+lightning-shaped
 lights
 ligue
 lihui
@@ -100,6 +109,7 @@ lineup
 lisbon
 lisbon’s
 list
+literature
 little
 live
 lives
@@ -109,12 +119,15 @@ ll
 lob
 local
 location
+locations
 lock
 lockdown
 locked
+lockhart
 logistics
 london
 lone
+lonely
 long
 long-term
 longer
@@ -126,6 +139,7 @@ looking
 looks
 lopes
 lopetegui
+lord
 lord’s
 lose
 loses
@@ -143,11 +157,13 @@ low
 lower
 lower-rated
 lowly
+lucius
 luck
 lucky
 lukaku
 lukaku’s
 lunch
+lupin
 luuk
 luz
 lying
