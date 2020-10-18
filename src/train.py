@@ -1,4 +1,4 @@
-import os
+import os, util
 
 charSet = [
     "a",
@@ -28,25 +28,6 @@ charSet = [
     "y",
     "z",
 ]
-
-def getWord(string):
-    return string.split("=")[0]
-
-def getCount(string):
-    try:
-        return int(string.split("=")[1])
-    except:
-        return 0
-
-def getNewWord(word):
-    # print(f"{word}=1")
-    return f"{word}=1"
-
-def incrementWordCount(string):
-    temp = string.split("=")
-    count = int(temp[1])+1
-    return f"{temp[0]}={count}"
-
 
 def train_data():
     BASE_DIR = os.getcwd()
@@ -132,17 +113,17 @@ def writeWordToFile(filePath: str, word: str):
         wordCount = len(lines)
         
         if (wordCount==0):
-            lines.append(getNewWord(word))
+            lines.append(util.getNewWord(word))
         else:
             indx = 0
-            while ( indx<wordCount and getWord(lines[indx]) < word ):
+            while ( indx<wordCount and util.getWord(lines[indx]) < word ):
                 indx+=1
-            if (indx < wordCount and getWord(lines[indx]) == word ):
-                lines[indx]= incrementWordCount(lines[indx])
-            if (indx < wordCount and getWord(lines[indx]) > word ):
-                lines.insert(indx, getNewWord(word))
+            if (indx < wordCount and util.getWord(lines[indx]) == word ):
+                lines[indx]= util.incrementWordCount(lines[indx])
+            if (indx < wordCount and util.getWord(lines[indx]) > word ):
+                lines.insert(indx, util.getNewWord(word))
             if (indx == wordCount):
-                lines.append(getNewWord(word))
+                lines.append(util.getNewWord(word))
 
         fileContent = ""
         for word in lines:

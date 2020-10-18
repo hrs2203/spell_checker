@@ -4,8 +4,6 @@ option = {
     "run": spell.takeInput,
     "train": train.train_data,
     "addWord": train.addNewWord,
-    "action4": "action4",
-    "action5": "action5",
 }
 
 if __name__ == "__main__":
