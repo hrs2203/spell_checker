@@ -19,17 +19,26 @@ def printUserEntry(wordList: list):
         wordList (list): List of word object
     """
     table = tt.Texttable()
-    table.header(["Word", "isCorrect","suggestList"])
+    table.header(["Word", "isCorrect", "possibleWord","suggestList"])
     words = []
     isCorrect = []
+    possibleWord = []
     suggestList = []
 
     for obj in wordList:
         words.append(obj.word)
         isCorrect.append(str(obj.isCorrect))
+
+        if (obj.isCorrect):
+            possibleWord.append(obj.word)
+        elif (len(obj.correctWord) == 0):
+            possibleWord.append("")
+        else:
+            possibleWord.append(obj.correctWord[0])
+
         suggestList.append(obj.correctWord)
 
-    for row in zip(words, isCorrect, suggestList):
+    for row in zip(words, isCorrect, possibleWord, suggestList):
         table.add_row(row)
 
     tab = table.draw()
