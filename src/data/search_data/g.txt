@@ -7,7 +7,7 @@ galwan
 gamble
 gambling
 game
-gameit
+gameit's
 games
 game’s
 gandhi
@@ -34,6 +34,7 @@ germain
 german
 germans
 germany
+germany's
 get
 gets
 getting
@@ -42,6 +43,7 @@ giants
 gifted
 gilderoy
 ginny
+ginny's
 girls
 girls’
 giron
@@ -55,6 +57,7 @@ globe
 gloomy
 glorious
 glory
+glory'
 glowing
 gnabry
 go
@@ -123,6 +126,7 @@ guidelines
 gujarat
 gujrathi
 gulacsi
+gulacsi's
 gulf
 gunneswaran
 gurbux

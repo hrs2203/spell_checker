@@ -55,10 +55,10 @@ rb
 rcb
 rcb’s
 rcf
-re
 re-educate
 re-enter
 re-hospitalised
+re-implement
 re-scheduled
 re-started
 reach
@@ -241,7 +241,7 @@ right
 right-back
 rights
 rijiju
-rings
+rings'
 rio
 rise
 rising
@@ -262,6 +262,7 @@ romantic
 romelu
 romp
 ron
+ron's
 ronald
 ronaldo
 ronaldo’s
@@ -303,6 +304,7 @@ running
 runs
 rus
 russia
+russia's
 russian
 russia’s
 ryan

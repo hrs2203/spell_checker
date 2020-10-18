@@ -57,6 +57,7 @@ scheduling
 scheffler
 scholastic
 school
+school's
 schools
 schoolwork
 schwartzman
@@ -135,6 +136,7 @@ sent
 separate
 separately
 september
+sequences
 serbia
 serbian
 serena
@@ -490,6 +492,7 @@ suele
 suffer
 suffered
 suffering
+suffixes
 suggested
 suggestions
 sukhwinder
@@ -497,6 +500,7 @@ sumit
 summer
 summoned
 sunday
+sunday's
 sunday’s
 sunrisers
 super
@@ -535,6 +539,7 @@ switch
 switzerland
 swung
 syed
+syllables
 symptoms
 synonymous
 system

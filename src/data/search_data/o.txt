@@ -68,6 +68,7 @@ opposite
 opposition
 opted
 optimistic
+optimizations
 or
 order
 orders
@@ -97,6 +98,7 @@ outdoor
 outfield
 outfit
 outperformed
+output
 outset
 outside
 outstretched

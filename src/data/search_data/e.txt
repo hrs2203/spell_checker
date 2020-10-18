@@ -68,6 +68,7 @@ energetic
 energy
 engineering
 england
+england's
 england-australia
 england-west
 england’s
@@ -118,6 +119,7 @@ ethos
 etienne
 europa
 europe
+europe's
 european
 euros
 evans

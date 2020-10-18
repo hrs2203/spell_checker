@@ -1,4 +1,5 @@
 c
+cache
 cagey
 cagliari
 calculated
@@ -11,7 +12,7 @@ calm
 camaraderie
 came
 cameron
-cameroonian
+cameroonian's
 camp
 campaign
 campaigns
@@ -38,6 +39,7 @@ captured
 care
 career
 career-best
+carefully
 carey
 caribbean
 carlin
@@ -90,6 +92,7 @@ champ!
 champion
 champions
 championship
+championship's
 championships
 champs-elysees
 chance
@@ -184,6 +187,7 @@ closer
 closest
 closing
 club
+club's
 clubs
 clubs’
 club’s
@@ -200,6 +204,7 @@ coleman
 collapses
 collect
 collected
+collecting
 collection
 collective
 collectively
@@ -212,6 +217,7 @@ com/erhjtbqoj9&mdash
 com/glyv37imb5&mdash
 com/wyhjmsoybg&mdash
 coman
+coman's
 combined
 come
 comeback
@@ -225,6 +231,7 @@ commitment
 commitments
 committed
 committee
+common
 commonly
 commonwealth
 community
@@ -243,10 +250,12 @@ competitions
 competition’s
 competitive
 competitor
+compiled
 complete
 completed
 completing
 compliance
+components
 composed
 composition
 composure
@@ -254,6 +263,7 @@ comprises
 comprising
 compromise
 compromised
+computations
 conceded
 concern
 concerning
@@ -345,6 +355,7 @@ cornerstones
 cornet
 coronavirus
 coronavirus-checked
+correction
 correspondent
 corruption
 cost
@@ -384,6 +395,7 @@ credit
 crept
 crewe
 cricket
+cricket's
 cricketer
 cricketers
 cricketing
@@ -393,7 +405,7 @@ cristiano
 criticism
 critics
 croatia
-croatian
+croatian's
 crop
 crore
 cross
@@ -403,7 +415,7 @@ crown
 crowned
 crucial
 crushing
-cruyff
+cruyff's
 csa
 csk
 culprit

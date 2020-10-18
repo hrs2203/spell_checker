@@ -78,6 +78,7 @@ level
 levels
 leverkusen
 lewandowski
+lewandowski's
 lewandowski’s
 lies
 life
@@ -115,7 +116,6 @@ live
 lives
 livewire
 living
-ll
 lob
 local
 location
@@ -168,5 +168,6 @@ luuk
 luz
 lying
 lyon
+lyon's
 lyonnais
 lyon’s

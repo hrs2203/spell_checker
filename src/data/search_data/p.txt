@@ -9,6 +9,7 @@ pain
 painstaking
 pair
 pakistan
+pakistan's
 pakistan’s
 palace
 palm
@@ -23,7 +24,9 @@ parc
 paredes
 parent
 parentage
+parentheses
 parents
+parents'
 paris
 parity
 parks
@@ -89,7 +92,7 @@ pga
 phase
 phenomenal
 philippe
-philosopher
+philosopher's
 phogat
 phone
 photo
@@ -174,6 +177,7 @@ potential
 potentially
 potions
 potter
+potter's
 pouch
 poulsen
 pounce
@@ -259,6 +263,7 @@ produced
 productive
 professional
 professionalism
+profile
 programme
 progress
 prohibited
@@ -290,6 +295,7 @@ provisional
 prowess
 pruning
 psg
+psg's
 psg’s
 psychological
 psychologist

@@ -26,6 +26,9 @@ watched
 watchful
 way
 we
+we'll
+we're
+we've
 weak
 weakened
 weaker
@@ -37,8 +40,10 @@ web
 webb
 website
 wednesday
+wednesday's
 wednesday’s
 week
+week's
 week-long
 weekend
 weekend’s
@@ -96,6 +101,7 @@ wing
 winger
 winner
 winners
+winners'
 winning
 wins
 winter
@@ -121,8 +127,10 @@ wk
 woakes
 woman
 women
+women's
 women’s
 won
+won't
 wonderful
 won’t
 wood
@@ -136,6 +144,7 @@ workload
 workmanlike
 works
 world
+world's
 worlds
 worldwide
 world’s
@@ -144,7 +153,7 @@ worried
 worsening
 worth
 would
-wouldn
+wouldn't
 wouldn’t
 wrap
 wreaked

@@ -79,7 +79,7 @@ def readTrainingFile(filePath: str, startChar: str) -> list:
     """
 
     stopList = [
-        ".",",","'",":",")","(","}","{","[","]"
+        ".",",",":",")","(","}","{","[","]"
     ]
 
     response = list()

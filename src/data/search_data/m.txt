@@ -118,6 +118,7 @@ memories
 memory
 memphis
 men
+men's
 menla
 mental
 mentally
@@ -203,6 +204,7 @@ mopped
 mor
 more
 morning
+morphology
 morris
 moscow
 most
@@ -228,9 +230,11 @@ muggles
 mukiele
 mukund
 mukundakam
+multiple
 multiples
 mumbai
 munich
+munich's
 muralitharan
 murder
 murderer
