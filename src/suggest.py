@@ -71,7 +71,7 @@ def isPresent(word: str) -> bool:
 
     return flag
 
-def edit_dist_1(word: str) -> list:
+def suggestWordList(word: str) -> list:
     """All edits that are one edit away from `word`.
     
     source: http://norvig.com/spell-correct.html
@@ -92,8 +92,21 @@ def edit_dist_1(word: str) -> list:
 
 
 def suggestionList(word: str) -> list:
-    tempWordList = edit_dist_1(word)
-    countWordList = [ [word, getWordCount(word)] for word in tempWordList if isPresent(word) ]
+    tempWordList = []
+
+    tempWordList_1 = suggestWordList(word)
+    tempWordList_1 = [ word for word in tempWordList_1 if isPresent(word) ]
+    tempWordList.extend(tempWordList_1)
+    tempWordList = list(set(tempWordList))
+
+    tempWordList_2 = []
+    for tempWord in tempWordList_1:
+        tempWordList_2.extend( suggestWordList(tempWord) )
+    tempWordList_2 = [ word for word in tempWordList_2 if isPresent(word) ]
+    tempWordList.extend(tempWordList_2)
+    tempWordList = list(set(tempWordList))
+
+    countWordList = [ [word, getWordCount(word)] for word in tempWordList ]
     countWordList.sort(key=lambda item: item[1], reverse=True)
     wordList = [ word[0] for word in countWordList ]
     return wordList
