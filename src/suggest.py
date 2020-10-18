@@ -1,14 +1,10 @@
 import os
 
-
 def isPresent(word: str) -> bool:
-    """Checks wether it is a spelling is present in db
-
-    Args:
-        word (str): word To Check
+    """Checks wether it is a spelling is present in db or not
 
     Returns:
-        bool: (is_correct_word) ? true : false;
+        bool: (is_present) ? true : false;
     """
     flag = False
     BASE_DIR = os.getcwd()
@@ -16,7 +12,6 @@ def isPresent(word: str) -> bool:
     # ======= check  =======
     startChar = word[0].lower()
     fileName = os.path.join(RESULT_DATA_PATH, f"{startChar}.txt")
-
     try:
         fileObj = open(fileName, "r")
 
@@ -33,9 +28,15 @@ def isPresent(word: str) -> bool:
 
     return flag
 
+def edit_dist_1(word: str) -> list:
+    """All edits that are one edit away from `word`.
 
-def edits1(word):
-    "All edits that are one edit away from `word`."
+    Args:
+        word (str): word to work on
+
+    Returns:
+        list: possible words
+    """
     letters = "abcdefghijklmnopqrstuvwxyz"
     splits = [(word[:i], word[i:]) for i in range(len(word) + 1)]
     deletes = [L + R[1:] for L, R in splits if R]
@@ -45,11 +46,18 @@ def edits1(word):
     return set(deletes + transposes + replaces + inserts)
 
 
-def edits2(word):
-    return (e2 for e1 in edits1(word) for e2 in edits1(e1))
+def edit_dist_2(word):
+    """All edits that are two edit away from `word`.
 
+    Args:
+        word (str): word to work on
 
-def getSuggestionList(word):
-    l1 = edits1(word)
-    l = [item for item in l1 if isPresent(item)]
-    return l
+    Returns:
+        list: possible words
+    """
+    return set(e2 for e1 in edits1(word) for e2 in edits1(e1))
+
+def suggestionList(word: str) -> list:
+    tempWordList = list(edit_dist_1(word))
+    wordList = [ word for word in tempWordList if isPresent(word) ]
+    return wordList
