@@ -94,13 +94,16 @@ def suggestWordList(word: str) -> list:
 def suggestionList(word: str) -> list:
     tempWordList = []
 
-    tempWordList_1 = suggestWordList(word)
-    tempWordList_1 = [ word for word in tempWordList_1 if isPresent(word) ]
+    suggestionWordList_1 = suggestWordList(word)
+    notTempWordList_1 = []
+    tempWordList_1 = set([ word for word in suggestionWordList_1 if isPresent(word) ])
+    notTempWordList_1 = [ word for word in suggestionWordList_1 if word not in tempWordList_1 ]
+    tempWordList_1 = list(tempWordList_1)
     tempWordList.extend(tempWordList_1)
     tempWordList = list(set(tempWordList))
 
     tempWordList_2 = []
-    for tempWord in tempWordList_1:
+    for tempWord in notTempWordList_1:
         tempWordList_2.extend( suggestWordList(tempWord) )
     tempWordList_2 = [ word for word in tempWordList_2 if isPresent(word) ]
     tempWordList.extend(tempWordList_2)
