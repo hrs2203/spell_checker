@@ -10,7 +10,7 @@ pip3 install -r requirements.txt
 2. run command
 ```bash
 cd src
-python3 manage.py runserver
+python3 manage.py run
 ```
 
 ## Theory and Approach
