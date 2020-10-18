@@ -17,6 +17,8 @@ python3 manage.py runserver
 
 
 ## sample output
+(proj_env) $ python3 manage.py run
+
 Enter your string: simr adr peopel
 
 <table>
@@ -24,13 +26,13 @@ Enter your string: simr adr peopel
         <th>Word</th><th>isCorrect</th><th>possibleWord</th><th>suggestList</th>
     </tr>
     <tr>
-        <th>simr</th><th>False</th><th>six</th><th>['six', 'sri', 'air', 'sit', 'sirs', 'sir'] </th>
+        <tr>simr</tr><tr>False</tr><tr>six</tr><tr>['six', 'sri', 'air', 'sit', 'sirs', 'sir'] </tr>
     </tr>
     <tr>
-        <th>adr</th><th>False</th><th>and</th><th>['and', 'or', 'do', 'r', 'mr', 'di', 'pair', 'air', 'de', 'adds', 'd', 'aim', 'da', 'ur', 'sir', 'dr', 'hair', 'add']</th>
+        <tr>adr</tr><tr>False</tr><tr>and</tr><tr>['and', 'or', 'do', 'r', 'mr', 'di', 'pair', 'air', 'de', 'adds', 'd', 'aim', 'da', 'ur', 'sir', 'dr', 'hair', 'add']</tr>
     </tr>
     <tr>
-        <th>peopel</th><th>False</th><th>people</th><th>['people']</th>
+        <tr>peopel</tr><tr>False</tr><tr>people</tr><tr>['people']</tr>
     </tr>
 </table>
 
