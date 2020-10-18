@@ -1,5 +1,22 @@
 import os, suggest
 
+def getWord(string):
+    return string.split("=")[0]
+
+def getCount(string):
+    try:
+        return int(string.split("=")[1])
+    except:
+        return 0
+
+def getNewWord(word):
+    return f"{word}=0"
+
+def incrementWordCount(string):
+    temp = string.split("=")
+    count = int(temp[1])+1
+    return f"{temp[0]}={count}"
+
 class Word:
     """Word Class"""
 
@@ -43,7 +60,7 @@ class Word:
             fileObj = open(fileName, "r")
 
             for line in fileObj:
-                flag = line[:-1] == word
+                flag = (getWord(line[:-1]) == word)
                 if flag:
                     break
 
