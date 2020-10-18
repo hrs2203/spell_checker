@@ -102,12 +102,13 @@ def suggestionList(word: str) -> list:
     tempWordList.extend(tempWordList_1)
     tempWordList = list(set(tempWordList))
 
-    tempWordList_2 = []
-    for tempWord in notTempWordList_1:
-        tempWordList_2.extend( suggestWordList(tempWord) )
-    tempWordList_2 = [ word for word in tempWordList_2 if isPresent(word) ]
-    tempWordList.extend(tempWordList_2)
-    tempWordList = list(set(tempWordList))
+    if (len(tempWordList)<6):
+        tempWordList_2 = []
+        for tempWord in notTempWordList_1:
+            tempWordList_2.extend( suggestWordList(tempWord) )
+        tempWordList_2 = [ word for word in tempWordList_2 if isPresent(word) ]
+        tempWordList.extend(tempWordList_2)
+        tempWordList = list(set(tempWordList))
 
     countWordList = [ [word, getWordCount(word)] for word in tempWordList ]
     countWordList.sort(key=lambda item: item[1], reverse=True)
