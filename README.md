@@ -1,22 +1,27 @@
 # SPELL CHECKER
 An attempt to impliment spell checker using raw python\
 
+
+
 ## Installation
-1. install requirements
+1. Create virtual env (proj_env) and install requirements
 ``` bash
-pip3 install -r requirements.txt
+source proj_env/bin/activate
+(proj_env) $ pip3 install -r requirements.txt
 ```
 
-2. run command
+2. Run command
 ```bash
-cd src
-python3 manage.py run
+(proj_env) $ cd src
+(proj_env) $ python3 manage.py run
 ```
 
-## Theory and Approach
+## Details
+- [Complete Detail](./res/README.nd)
 
 
-## sample output
+
+## Sample output
 
 (proj_env) $ python3 manage.py run
 
@@ -38,8 +43,4 @@ Enter your string: simr adr peopel
 </table>
 
 ## References
-- ref 1
-- ref 1
-- ref 1
-- ref 1
-- ref 1
+http://norvig.com/spell-correct.html
