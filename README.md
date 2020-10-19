@@ -17,7 +17,7 @@ source proj_env/bin/activate
 ```
 
 ## Details
-- [Complete Detail](./res/README.nd)
+- [Complete Detail](./res/README.md)
 
 
 
