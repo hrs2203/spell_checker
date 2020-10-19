@@ -2,7 +2,7 @@
 
 ## Check Spelling
 
-[Detailed Explanation](./Check.md)
+[Detailed Explanation](./SpellCheckerS2018064.pdf)
 
 ```bash
 (proj_env) $ python3 manage.py run
@@ -28,7 +28,7 @@ Enter your string: simr adr peopel
 
 ## Train on New dataset
 
-[Detailed Explanation](./Train.md)
+[Detailed Explanation](./SpellCheckerS2018064.pdf)
 
 create a new file in `/src/data/train_data_set/fileName.txt`
 of any name of your choice and exectute the command
@@ -39,7 +39,7 @@ of any name of your choice and exectute the command
 
 ## Add new word to dataset
 
-[Detailed Explanation](./Add_word.md)
+[Detailed Explanation](./SpellCheckerS2018064.pdf)
 
 
 ```bas
