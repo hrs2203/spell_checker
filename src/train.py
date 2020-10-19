@@ -107,6 +107,7 @@ def train_data():
     print("============== created set ==================")
 
     tempFileList = os.listdir(TRAINING_DATA_PATH)
+    fileCount = len(tempFileList)
     fileList = [os.path.join(TRAINING_DATA_PATH, fileName) for fileName in tempFileList]
 
     # for letter in charSet:
@@ -128,7 +129,8 @@ def train_data():
                 for word in wordSet:
                     fileName = os.path.join(RESULT_DATA_PATH, util.getFileName(word))
                     writeWordToFile(fileName, word)
-        print(f"training done for file {train_file}")
+        
+        print(f" {((fileList.index(train_file)+1)/fileCount)*100}% done")
 
     print("=============== training finished ==================")
 
