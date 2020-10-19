@@ -40,13 +40,13 @@ def suggestionList(word: str) -> list:
     tempWordList = list(set(tempWordList))
 
     ## TODO: takes to much time, so stopped for now
-    # if ( len(tempWordList) < ( len(word)//2 ) ):
-    #     tempWordList_2 = []
-    #     for tempWord in notTempWordList_1:
-    #         tempWordList_2.extend( suggestWordList(tempWord) )
-    #     tempWordList_2 = [ word for word in tempWordList_2 if util.isPresent(word) ]
-    #     tempWordList.extend(tempWordList_2)
-    #     tempWordList = list(set(tempWordList))
+    if ( len(tempWordList) < ( len(word)//2 ) ):
+        tempWordList_2 = []
+        for tempWord in notTempWordList_1:
+            tempWordList_2.extend( suggestWordList(tempWord) )
+        tempWordList_2 = [ word for word in tempWordList_2 if util.isPresent(word) ]
+        tempWordList.extend(tempWordList_2)
+        tempWordList = list(set(tempWordList))
 
     countWordList = [ [word, util.getWordCount(word)] for word in tempWordList ]
     countWordList.sort(key=lambda item: item[1], reverse=True)

@@ -1,0 +1,5 @@
+nsfs=30
+number=17
+numbers=2
+numerous=3
+nurse-girl=1

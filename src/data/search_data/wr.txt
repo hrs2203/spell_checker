@@ -1,0 +1,13 @@
+wrap=6
+wreaked=2
+wrestler=6
+wrestlers=6
+wrestling=10
+wrist=1
+writes=1
+writing=3
+written=9
+wrong=12
+wronged=1
+wrote=13
+wycombe=2

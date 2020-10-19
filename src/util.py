@@ -34,7 +34,7 @@ def getNewWord(word: str) -> str:
     Returns:
         str: db format
     """
-    return f"{word}=0"
+    return f"{word}=1"
 
 def incrementWordCount(string: str) -> str:
     """incremenent word count in db format
@@ -49,6 +49,20 @@ def incrementWordCount(string: str) -> str:
     count = int(temp[1])+1
     return f"{temp[0]}={count}"
 
+def getFileName(word: str) -> str:
+    if (len(word)==1):
+        startChar = word[0].lower()
+        return f"{startChar}.txt"
+    
+    if (word[1]<'i'):
+        startChar = word[0].lower()
+    elif (word[1]>='i' and word[1]<'r'):
+        startChar = f"{word[0].lower()}i"
+    else:
+        startChar = f"{word[0].lower()}r"
+    return f"{startChar}.txt"
+
+
 def isPresent(word: str ) -> bool:
     """Checks wether it is a spelling mistake or not
 
@@ -59,8 +73,8 @@ def isPresent(word: str ) -> bool:
     BASE_DIR = os.getcwd()
     RESULT_DATA_PATH = os.path.join(BASE_DIR, "data", "search_data")
     # ======= check  =======
-    startChar = word[0].lower()
-    fileName = os.path.join(RESULT_DATA_PATH, f"{startChar}.txt")
+    fileHead = getFileName(word)
+    fileName = os.path.join(RESULT_DATA_PATH, fileHead)
 
     try:
         fileObj = open(fileName, "r")
@@ -84,8 +98,8 @@ def getWordCount(word):
     BASE_DIR = os.getcwd()
     RESULT_DATA_PATH = os.path.join(BASE_DIR, "data", "search_data")
     # ======= check  =======
-    startChar = word[0].lower()
-    fileName = os.path.join(RESULT_DATA_PATH, f"{startChar}.txt")
+    fileHead = getFileName(word)
+    fileName = os.path.join(RESULT_DATA_PATH, fileHead)
     try:
         fileObj = open(fileName, "r")
 
@@ -127,8 +141,16 @@ class Word:
         return prt
 
     def setCorrectWord(self):
-        if not self.isCorrect:
-            self.correctWord = suggest.suggestionList(self.word)
-        else:
+        print(f"working on {self.word}... ", end=" ")
+        try:
+            if not self.isCorrect:
+                self.correctWord = suggest.suggestionList(self.word)
+            else:
+                self.correctWord = []
+            print("Done")
+        except expression as identifier:
             self.correctWord = []
+            print("Error")
+        
+        
 

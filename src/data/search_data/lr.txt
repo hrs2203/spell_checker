@@ -1,0 +1,15 @@
+lucius=1
+luck=4
+lucky=5
+luggage=1
+lukaku=13
+lukaku’s=1
+lunch=7
+lupin=3
+luuk=1
+luz=2
+lying=2
+lyon=23
+lyon's=2
+lyonnais=7
+lyon’s=2

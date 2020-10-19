@@ -1,0 +1,3 @@
+zimbabwe=11
+zipped=7
+zoom=2

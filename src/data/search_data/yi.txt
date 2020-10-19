@@ -1,0 +1,14 @@
+yoga=2
+york=10
+you=206
+you-know-who=1
+you?=1
+young=18
+younger=4
+youngsters=8
+your=72
+yours=3
+yourself=7
+youth=14
+youth’s=2
+youtube=7

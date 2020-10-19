@@ -1,6 +1,2 @@
 zak=6
 zealand=2
-zimbabwe=11
-zipped=7
-zoom=2
-zverev=4
