@@ -1,5 +1,8 @@
 # SPELL CHECKER
-An attempt to impliment spell checker using raw python\
+An attempt to impliment spell checker using raw python
+
+## To use in product user QueryChecker Fxn
+check [example.py](./src/example.py) for more detail.
 
 
 

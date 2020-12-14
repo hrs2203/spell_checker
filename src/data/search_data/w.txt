@@ -21,6 +21,7 @@ wanted=11
 wants=10
 war=2
 warmed=4
+warming=1
 warne=11
 warned=7
 warner=1

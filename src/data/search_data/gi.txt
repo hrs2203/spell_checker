@@ -23,6 +23,7 @@ glass-factories=1
 gleam=1
 glimpse=3
 glimpses=1
+global=1
 globe=4
 gloomy=7
 glorious=2
