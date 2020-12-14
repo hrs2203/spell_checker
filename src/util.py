@@ -141,16 +141,16 @@ class Word:
         return prt
 
     def setCorrectWord(self):
-        print(f"working on {self.word}... ", end=" ")
+        # print(f"working on {self.word}... ", end=" ")
         try:
             if not self.isCorrect:
                 self.correctWord = suggest.suggestionList(self.word)
             else:
                 self.correctWord = []
-            print("Done")
+            # print("Done")
         except expression as identifier:
             self.correctWord = []
-            print("Error")
+            # print("Error")
         
         
 

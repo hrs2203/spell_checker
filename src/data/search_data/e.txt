@@ -6,6 +6,7 @@ early=28
 earned=6
 earnestly=1
 earning=3
+earth=1
 ease=1
 easier=3
 easily=1
