@@ -39,7 +39,6 @@ def suggestionList(word: str) -> list:
     tempWordList.extend(tempWordList_1)
     tempWordList = list(set(tempWordList))
 
-    ## TODO: takes to much time, so stopped for now
     if ( len(tempWordList) < ( len(word)//2 ) ):
         tempWordList_2 = []
         for tempWord in notTempWordList_1:
