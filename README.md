@@ -1,7 +1,7 @@
 # SPELL CHECKER
 An attempt to impliment spell checker using raw python
 
-## To use in poject user QueryChecker Fxn
+## To use in project user QueryChecker Fxn
 check [example.py](./src/example.py) for more detail.
 
 
