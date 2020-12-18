@@ -5,7 +5,7 @@ Example on how to use query check class
 from query import QueryCheck
 
 if __name__ == "__main__":
-    queryChecker = QueryCheck("globad wareing")
+    queryChecker = QueryCheck("distance of sun from eart")
 
     # List of all word corrections
     print("====== Correction Word wise =================")
@@ -16,14 +16,7 @@ if __name__ == "__main__":
 
     # List of all possible query
     print("====== Possible Query ( depth = 3 ) ==========")
-    possibleQuery = queryChecker.getPossibleQuery()
-    for queries in possibleQuery:
-        print(queries)
-    print("=============================================")
-
-    # List of all possible query
-    print("====== Possible Query ( depth = 5 ) ==========")
-    possibleQuery = queryChecker.getPossibleQuery(5)
+    possibleQuery = queryChecker.getPossibleQuery(10)
     for queries in possibleQuery:
         print(queries)
     print("=============================================")

@@ -1,8 +1,12 @@
 krajinovic=3
 kramm=2
+kratzer=2
 kristina=2
+ks=1
 ksca=2
+kstar=1
 kudermetova=10
+kuiper=1
 kulkarni=4
 kumar=12
 kumble=11

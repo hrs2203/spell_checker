@@ -10,4 +10,6 @@ written=9
 wrong=12
 wronged=1
 wrote=13
+wtmpx=1
+ww=1
 wycombe=2

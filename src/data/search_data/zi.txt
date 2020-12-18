@@ -1,3 +1,7 @@
+zigzag=1
 zimbabwe=11
 zipped=7
+zn=1
+zno=1
+zone=1
 zoom=2

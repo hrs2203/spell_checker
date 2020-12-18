@@ -1,2 +1,8 @@
+q=7
 qatar=5
 qatari=4
+qb=1
+qcd=3
+qed=4
+qel=1
+qgp=1

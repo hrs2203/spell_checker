@@ -1,2 +1,8 @@
+z=6
 zak=6
+zdtp=1
 zealand=2
+zehnder=1
+zeno=1
+zero=4
+zeros=1

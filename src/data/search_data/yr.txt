@@ -1,3 +1,5 @@
+yso=1
+ytterbium=1
 yulia=1
 yussuf=2
 yuvraj=2

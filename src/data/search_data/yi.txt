@@ -1,10 +1,12 @@
+yield=2
 yoga=2
 york=10
 you=206
 you-know-who=1
 you?=1
-young=18
+young=21
 younger=4
+youngest=1
 youngsters=8
 your=72
 yours=3
