@@ -303,6 +303,7 @@ she=99
 sheaves=1
 sheet=2
 sheffield=2
+sheldon=1
 shell=2
 shelves=2
 sherlock=11

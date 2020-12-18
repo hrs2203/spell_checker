@@ -112,6 +112,7 @@ lemma=1
 length=3
 lengths=3
 lengthy=1
+lenord=1
 lenses=1
 lensing=2
 lent=1

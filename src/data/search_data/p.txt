@@ -102,6 +102,7 @@ pelvic=2
 penalization=1
 penalty=5
 pending=1
+penny=1
 pensieve=1
 pentacene=1
 pentalogy=1

@@ -107,5 +107,6 @@ hove=2
 how=23
 how--"=1
 how?"=1
+howard=1
 however=42
 hpt=1
